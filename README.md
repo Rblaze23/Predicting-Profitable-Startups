@@ -3,7 +3,8 @@
 
 ## Executive Summary
 
-This project explores the intersection between **Machine Learning (ML)** and **Fuzzy Logic** to estimate the **attractiveness and profitability of investors** (VC firms) based on structured market and performance indicators.  
+This project explores the intersection between **Machine Learning (ML)** and **Fuzzy Logic** to estimate the **attractiveness and profitability of investors** (VC firms) based on structured market and performance indicators.
+
 The goal was to design a **hybrid decision system** that combines quantitative prediction from ML models with qualitative reasoning using fuzzy inference — bridging algorithmic accuracy and interpretability.
 
 Initially conceived as an **OOP-driven machine learning architecture experiment**, the project evolved into a study of **hybrid AI reasoning**, emphasizing clean modular design, transparent decision-making, and real-world applicability. At first it was intiteled Predicting-Profitable-Startups aiming to rank startups based on their profitability potential and predict their future performance to guide investment decisions.
@@ -98,14 +99,18 @@ In early-stage investor evaluation, combining ML and fuzzy reasoning allows both
    - Increase dataset size via additional scraping or API access to VC databases.  
    - Validate model generalization on external investor datasets.
 
-2. **Rule Refinement**  
+2. **Textual Feature Modeling**  
+   - Explore encoding the investors’ textual *descriptions* using advanced language models (e.g., BERT, SentenceTransformers).  
+   - Evaluate whether these embeddings improve prediction performance or complement fuzzy reasoning for interpretability.
+
+3. **Rule Refinement**  
    - Calibrate fuzzy rules with expert input or data-driven optimization of membership functions.
 
-3. **Deployment Prototype**  
+4. **Deployment Prototype**  
    - Convert the hybrid ML–Fuzzy pipeline into a **Streamlit** or **Dash** dashboard.  
    - Enable user interaction for adjusting α (fusion weight) and visualizing reasoning flow.
 
-4. **Model Enhancement**  
+5. **Model Enhancement**  
    - Test **Bayesian** or **ensemble regressors** for uncertainty-aware predictions.  
    - Apply hyperparameter optimization (e.g., Bayesian optimization or Optuna).
 
