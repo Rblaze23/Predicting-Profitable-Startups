@@ -56,7 +56,7 @@ This modularity demonstrates **OOP best practices in ML system design**, ensurin
 - The final decision score combined ML output and fuzzy inference:
 
 \[
-\text{final_score} = \alpha \times \text{ML\_prob} + (1 - \alpha) \times \frac{\text{fuzzy\_score}}{100}
+final\_score = \alpha \times ML\_prob + (1 - \alpha) \times \frac{fuzzy\_score}{100}
 \]
 where α = 0.6.
 
@@ -70,8 +70,6 @@ where α = 0.6.
 - **Fuzzy Logic Design** — rule-based modeling using `scikit-fuzzy`.  
 - **Explainable AI (XAI)** — interpretability using **SHAP** values and feature importance plots.  
 - **Hybrid Reasoning Systems** — merging statistical prediction and symbolic logic.  
-- **Python & MLOps Practices** — modular code, reproducible pipeline, clean architecture.
-
 ---
 
 ## Results & Business Recommendation
