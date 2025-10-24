@@ -55,10 +55,7 @@ This modularity demonstrates **OOP best practices in ML system design**, ensurin
   `IF ml_score IS high AND follow_on IS high THEN attractiveness IS high`  
 - The final decision score combined ML output and fuzzy inference:
 
-\[
-final\_score = \alpha \times ML\_prob + (1 - \alpha) \times \frac{fuzzy\_score}{100}
-\]
-where α = 0.6.
+`final_score = α × ML_prob + (1 - α) × (fuzzy_score / 100)`, where α = 0.6.
 
 ---
 
